@@ -1,10 +1,10 @@
 {
   "Metadata": {
-    "title": "Roda Putar Acak Gratis — Spin Wheel Pemilih Nama & Keputusan",
+    "title": "WheelTara — Roda Putar Gratis & Pemilih Nama Acak",
     "description": "Roda putar online gratis dengan mode eliminasi, bobot peluang, efek suara, link bagikan, dan widget embed untuk kelas atau giveaway."
   },
   "UI": {
-    "brand": "SpinPicker",
+    "brand": "WheelTara",
     "spin": "PUTAR",
     "spinning": "Memutar...",
     "entries": "Daftar Pilihan",

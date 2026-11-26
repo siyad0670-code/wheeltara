@@ -1,10 +1,10 @@
 {
   "Metadata": {
-    "title": "Ruleta Aleatoria Gratis — Girar la Ruleta de Nombres y Decisiones",
+    "title": "WheelTara — Ruleta Aleatoria Gratis y Selector de Nombres",
     "description": "Ruleta aleatoria online gratis con modo eliminación, probabilidades, sonidos, enlace compartible y widget para clases o sorteos."
   },
   "UI": {
-    "brand": "SpinPicker",
+    "brand": "WheelTara",
     "spin": "GIRAR",
     "spinning": "Girando...",
     "entries": "Opciones",

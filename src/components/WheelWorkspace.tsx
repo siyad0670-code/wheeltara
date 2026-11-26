@@ -394,38 +394,85 @@ export function WheelWorkspace({
           </div>
         )}
       </div>
-
       {winner && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-900/60 p-4 backdrop-blur-xs">
-          <div className="w-full max-w-sm rounded-3xl bg-white p-6 text-center shadow-2xl">
-            <span className="inline-block rounded-full bg-orange-100 px-3 py-1 text-xs font-extrabold uppercase tracking-wider text-orange-700">
-              {t('winner')}
-            </span>
-            <p className="mt-3 break-words text-3xl font-black text-slate-900">
-              {winner.label}
-            </p>
-            <div className="mt-6 flex flex-col gap-2.5 sm:flex-row sm:justify-center">
-              {eliminationMode && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-900/60 p-4 backdrop-blur-sm">
+          <div className="relative w-full max-w-md animate-[modalPop_0.38s_ease-out_forwards] rounded-[2rem] border border-white/70 bg-white/85 p-3 shadow-[0_24px_60px_-12px_rgba(15,23,42,0.35)] backdrop-blur-md">
+            {/* Top Glossy Orange Bar */}
+            <div className="flex items-center justify-between rounded-2xl bg-gradient-to-b from-orange-400 via-orange-500 to-orange-600 px-5 py-3 text-white shadow-md shadow-orange-500/30 ring-1 ring-white/40">
+              <span className="text-2xl drop-shadow-sm" aria-hidden="true">🏆</span>
+              <div className="flex items-center gap-2">
+                <img
+                  src="/logo.png"
+                  alt="WheelTara"
+                  className="h-7 w-7 rounded-full bg-white object-contain p-0.5 shadow-sm"
+                />
+                <span className="text-lg font-extrabold tracking-tight">
+                  WheelTara
+                </span>
+              </div>
+              <span className="w-7" aria-hidden="true" />
+            </div>
+
+            {/* Inner Frosted Celebration Card */}
+            <div className="relative mt-3 overflow-hidden rounded-2xl border border-slate-200/80 bg-gradient-to-b from-white via-slate-50/70 to-slate-100/90 px-6 py-8 text-center shadow-inner">
+              {/* Static Celebration Emojis */}
+              <span className="pointer-events-none absolute top-3 left-4 -rotate-12 text-2xl select-none" aria-hidden="true">🥳</span>
+              <span className="pointer-events-none absolute top-2 left-1/4 text-xl select-none" aria-hidden="true">😂</span>
+              <span className="pointer-events-none absolute top-2 right-1/4 text-xl select-none" aria-hidden="true">✨</span>
+              <span className="pointer-events-none absolute top-3 right-4 rotate-12 text-2xl select-none" aria-hidden="true">🤩</span>
+              <span className="pointer-events-none absolute top-1/2 left-3 -translate-y-1/2 -rotate-6 text-xl select-none" aria-hidden="true">😍</span>
+              <span className="pointer-events-none absolute top-1/2 right-3 -translate-y-1/2 rotate-12 text-xl select-none" aria-hidden="true">🔥</span>
+              <span className="pointer-events-none absolute bottom-4 left-5 -rotate-12 text-2xl select-none" aria-hidden="true">🎉</span>
+              <span className="pointer-events-none absolute right-5 bottom-4 rotate-12 text-2xl select-none" aria-hidden="true">🎊</span>
+
+              {/* Subtle Golden Glow Behind Winner Name */}
+              <div className="pointer-events-none absolute inset-x-10 top-1/3 h-14 rounded-full bg-amber-300/25 blur-xl" aria-hidden="true" />
+
+              <p className="relative z-10 bg-gradient-to-b from-amber-400 via-orange-500 to-orange-600 bg-clip-text text-xs font-black tracking-widest text-transparent uppercase">
+                {t('winner')}
+              </p>
+
+              {/* 3D Metallic Winner Name + Mirror Reflection */}
+              <div className="relative z-10 mt-2 flex flex-col items-center">
+                <h3 className="break-words bg-gradient-to-b from-slate-700 via-slate-900 to-slate-950 bg-clip-text text-4xl font-black tracking-tight text-transparent drop-shadow-[0_4px_10px_rgba(15,23,42,0.22)] sm:text-5xl">
+                  {winner.label}
+                </h3>
+                <span
+                  aria-hidden="true"
+                  className="pointer-events-none -mt-2.5 max-w-full scale-y-[-0.55] truncate bg-gradient-to-b from-slate-900/40 to-transparent bg-clip-text text-4xl font-black tracking-tight text-transparent opacity-30 blur-[0.6px] select-none sm:text-5xl"
+                >
+                  {winner.label}
+                </span>
+              </div>
+
+              <p className="relative z-10 mt-1 text-sm font-medium text-slate-500">
+                You spun and landed on the winning spot!
+              </p>
+
+              <div className="relative z-10 mt-6 flex flex-col gap-2.5 sm:flex-row sm:justify-center">
+                {eliminationMode && (
+                  <button
+                    type="button"
+                    onClick={handleRemoveWinner}
+                    className="cursor-pointer rounded-full border border-red-200 bg-red-50 px-6 py-3 text-sm font-bold text-red-600 transition hover:bg-red-100 active:scale-[0.98]"
+                  >
+                    {t('removeWinner')}
+                  </button>
+                )}
                 <button
                   type="button"
-                  onClick={handleRemoveWinner}
-                  className="rounded-xl bg-red-600 px-5 py-2.5 text-sm font-bold text-white hover:bg-red-700"
+                  onClick={() => setWinner(null)}
+                  className="cursor-pointer rounded-full bg-gradient-to-b from-orange-400 via-orange-500 to-orange-600 px-8 py-3 text-base font-bold text-white shadow-lg shadow-orange-500/30 ring-1 ring-white/30 transition hover:brightness-105 active:scale-[0.98]"
                 >
-                  {t('removeWinner')}
+                  {t('keepWinner')}
                 </button>
-              )}
-              <button
-                type="button"
-                onClick={() => setWinner(null)}
-                className="rounded-xl bg-slate-900 px-5 py-2.5 text-sm font-bold text-white hover:bg-slate-800"
-              >
-                {t('keepWinner')}
-              </button>
+              </div>
             </div>
           </div>
         </div>
       )}
 
+     
       <EmbedModal
         isOpen={isEmbedOpen}
         onClose={() => setIsEmbedOpen(false)}

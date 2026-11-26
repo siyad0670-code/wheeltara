@@ -1,10 +1,10 @@
 {
   "Metadata": {
-    "title": "Vòng Quay May Mắn Miễn Phí — Quay Tên & Chọn Ngẫu Nhiên",
+    "title": "WheelTara — Vòng Quay May Mắn Miễn Phí & Chọn Tên Ngẫu Nhiên",
     "description": "Vòng quay may mắn online miễn phí có chế độ loại trừ, hiệu ứng âm thanh, chia sẻ link và nhúng web cho lớp học, livestream."
   },
   "UI": {
-    "brand": "SpinWheel",
+    "brand": "WheelTara",
     "spin": "QUAY",
     "spinning": "Đang quay...",
     "entries": "Danh sách",

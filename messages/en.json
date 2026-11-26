@@ -1,10 +1,10 @@
 {
   "Metadata": {
-    "title": "Spin Wheel — Free Random Name & Decision Picker",
+    "title": "WheelTara — Free Spin Wheel & Random Name Picker",
     "description": "Free online spin wheel with elimination mode, weighted odds, sound effects, shareable links, and embeddable classroom widgets. No signup required."
   },
   "UI": {
-    "brand": "SpinPicker",
+    "brand": "WheelTara",
     "spin": "SPIN",
     "spinning": "Spinning...",
     "entries": "Entries",

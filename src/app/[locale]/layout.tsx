@@ -50,16 +50,7 @@ export default async function LocaleLayout({ children, params }: Props) {
           <header className="sticky top-0 z-30 border-b border-slate-200/80 bg-white/95 backdrop-blur-sm">
             <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
               <Link href="/" className="flex items-center gap-2.5">
-                <svg className="h-8 w-8 shrink-0" viewBox="0 0 36 36" aria-hidden="true">
-                  <circle cx="18" cy="18" r="16" fill="#0F172A" />
-                  <path d="M18 18 L18 3 A15 15 0 0 1 31 10.5 Z" fill="#FBBF24" />
-                  <path d="M18 18 L31 10.5 A15 15 0 0 1 31 25.5 Z" fill="#3B82F6" />
-                  <path d="M18 18 L31 25.5 A15 15 0 0 1 18 33 Z" fill="#EC4899" />
-                  <path d="M18 18 L18 33 A15 15 0 0 1 5 25.5 Z" fill="#EA580C" />
-                  <path d="M18 18 L5 25.5 A15 15 0 0 1 5 10.5 Z" fill="#06B6D4" />
-                  <path d="M18 18 L5 10.5 A15 15 0 0 1 18 3 Z" fill="#10B981" />
-                  <circle cx="18" cy="18" r="4.5" fill="#FFFFFF" />
-                </svg>
+                <img src="/logo.png" alt="WheelTara Logo" className="h-8 w-8" />
                 <span className="text-xl font-black tracking-tight text-slate-900">
                   Wheel<span className="text-orange-600">Tara</span>
                 </span>
