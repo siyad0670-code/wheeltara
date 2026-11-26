@@ -1,0 +1,220 @@
+{
+  "Metadata": {
+    "title": "Roda Putar Acak Gratis — Spin Wheel Pemilih Nama & Keputusan",
+    "description": "Roda putar online gratis dengan mode eliminasi, bobot peluang, efek suara, link bagikan, dan widget embed untuk kelas atau giveaway."
+  },
+  "UI": {
+    "brand": "SpinPicker",
+    "spin": "PUTAR",
+    "spinning": "Memutar...",
+    "entries": "Daftar Pilihan",
+    "addPlaceholder": "Tambah pilihan baru...",
+    "add": "Tambah",
+    "bulkPlaceholder": "Tempel daftar nama (satu per baris)...",
+    "applyBulk": "Ganti Daftar",
+    "shuffle": "Acak",
+    "sort": "Urutkan A-Z",
+    "reset": "Reset",
+    "eliminationMode": "Mode Eliminasi (Hapus Pemenang)",
+    "weightedMode": "Peluang Berbobot",
+    "sound": "Efek Suara",
+    "fullscreen": "Layar Penuh",
+    "exitFullscreen": "Keluar",
+    "share": "Bagikan",
+    "embed": "Sematkan Widget",
+    "copied": "Disalin!",
+    "winner": "Pemenang!",
+    "removeWinner": "Hapus Pemenang",
+    "keepWinner": "Simpan & Lanjut",
+    "history": "Riwayat Putaran",
+    "noHistory": "Belum ada putaran. Klik PUTAR!",
+    "clearHistory": "Hapus",
+    "allWheels": "Roda Populer",
+    "embedTitle": "Bagikan atau Sematkan Roda Ini",
+    "shareUrlLabel": "Link Bagikan (menyimpan semua pilihan Anda)",
+    "embedCodeLabel": "Kode iframe untuk Blog / Google Sites",
+    "copy": "Salin",
+    "close": "Tutup",
+    "language": "Bahasa"
+  },
+  "Home": {
+    "h1": "Roda Putar Acak & Pemilih Nama Gratis",
+    "subtitle": "Masukkan nama, angka, atau pilihan lalu putar rodanya. Cocok untuk guru, arisan, giveaway, dan keputusan cepat tanpa daftar.",
+    "defaultItems": ["Andi", "Budi", "Citra", "Dewi", "Eko", "Fitri", "Gilang", "Hana"],
+    "guideTitle": "Cara Menggunakan Roda Putar Online",
+    "guideBody": "Masukkan daftar pilihan Anda, aktifkan Mode Eliminasi agar pemenang otomatis terhapus di putaran berikutnya, lalu klik PUTAR. Bagikan link roda Anda atau sematkan di website secara gratis.",
+    "faqTitle": "Pertanyaan Umum",
+    "faqs": [
+      { "q": "Apakah roda putar ini benar-benar adil dan acak?", "a": "Ya, setiap putaran menggunakan generator acak kriptografis browser untuk hasil yang adil." },
+      { "q": "Apakah data nama saya disimpan di server?", "a": "Tidak, semua berjalan 100% di browser Anda." },
+      { "q": "Bagaimana cara kerja Mode Eliminasi?", "a": "Pemenang yang terpilih otomatis dihapus dari roda agar tidak terpilih dua kali." }
+    ]
+  },
+  "Wheels": {
+    "yes-or-no": {
+      "title": "Roda Ya atau Tidak — Pemilih Keputusan Cepat",
+      "description": "Bingung memilih? Putar roda Ya atau Tidak gratis untuk jawaban instan.",
+      "h1": "Roda Putar Ya atau Tidak",
+      "items": ["Ya", "Tidak", "Ya", "Tidak", "Ya", "Tidak"],
+      "guide": "Gunakan roda Ya atau Tidak sebagai pengganti lempar koin yang lebih seru untuk keputusan cepat.",
+      "faqs": [
+        { "q": "Apakah peluangnya 50/50?", "a": "Ya, peluang Ya dan Tidak masing-masing tepat 50%." },
+        { "q": "Bisa tambah pilihan Mungkin?", "a": "Bisa, cukup ketik di kolom daftar pilihan." }
+      ]
+    },
+    "yes-no-maybe": {
+      "title": "Roda Ya, Tidak, Mungkin — 3 Pilihan",
+      "description": "Putar roda Ya, Tidak, Mungkin untuk keputusan grup yang lebih fleksibel.",
+      "h1": "Roda Ya, Tidak, Mungkin",
+      "items": ["Ya", "Tidak", "Mungkin", "Ya", "Tidak", "Mungkin"],
+      "guide": "Cocok untuk permainan dan diskusi saat jawabannya tidak hanya ya atau tidak.",
+      "faqs": [
+        { "q": "Bisa ubah peluang Mungkin?", "a": "Aktifkan Peluang Berbobot untuk mengatur bobot tiap pilihan." },
+        { "q": "Bisa dipakai di HP?", "a": "Ya, tampilannya responsif di semua layar." }
+      ]
+    },
+    "what-to-eat": {
+      "title": "Roda Putar Makan Apa Hari Ini — Pemilih Menu",
+      "description": "Akhiri bingung mau makan apa! Putar roda makanan untuk memilih menu.",
+      "h1": "Roda Putar Makan Apa",
+      "items": ["Nasi Goreng", "Bakso", "Sate", "Mie Ayam", "Pizza", "Ayam Geprek", "Sushi", "Soto"],
+      "guide": "Tambahkan menu atau restoran favorit Anda, aktifkan Mode Eliminasi jika ingin menyaring satu per satu, lalu putar!",
+      "faqs": [
+        { "q": "Bisa simpan daftar menu favorit?", "a": "Bisa, klik Bagikan untuk menyalin link khusus menu Anda." },
+        { "q": "Cocok untuk makan bareng teman?", "a": "Sangat cocok untuk menghindari debat panjang." }
+      ]
+    },
+    "classroom-name-picker": {
+      "title": "Roda Acak Nama Siswa — Alat Guru di Kelas",
+      "description": "Pilih siswa secara adil dengan Mode Eliminasi dan Layar Penuh.",
+      "h1": "Roda Pemilih Nama Siswa",
+      "items": ["Siswa 1", "Siswa 2", "Siswa 3", "Siswa 4", "Siswa 5", "Siswa 6", "Siswa 7", "Siswa 8"],
+      "guide": "Tempel daftar absen kelas dari Excel, aktifkan Mode Eliminasi agar siswa tidak terpanggil dua kali, dan gunakan Layar Penuh di proyektor.",
+      "faqs": [
+        { "q": "Bisa tempel nama dari Excel?", "a": "Bisa, tempel langsung di kotak daftar massal." },
+        { "q": "Bisa disematkan di Google Sites?", "a": "Ya, klik Sematkan Widget untuk menyalin kode iframe." }
+      ]
+    },
+    "random-team-generator": {
+      "title": "Roda Pembagi Kelompok & Tim Acak",
+      "description": "Bagi siswa atau pemain ke dalam tim acak secara adil.",
+      "h1": "Roda Pembuat Tim Acak",
+      "items": ["Tim Merah", "Tim Biru", "Tim Hijau", "Tim Kuning"],
+      "guide": "Gunakan untuk membagi kelompok tugas sekolah, turnamen game, atau acara kantor.",
+      "faqs": [
+        { "q": "Bagaimana cara membagi tim adil?", "a": "Aktifkan Mode Eliminasi untuk memilih anggota bergantian." },
+        { "q": "Gratis tanpa batas?", "a": "Ya, 100% gratis tanpa login." }
+      ]
+    },
+    "giveaway-winner-picker": {
+      "title": "Roda Undian Giveaway & Arisan Online",
+      "description": "Pilih pemenang giveaway atau arisan secara transparan saat live.",
+      "h1": "Roda Pemilih Pemenang Giveaway",
+      "items": ["@andi", "@budi", "@citra", "@dewi", "@eko", "@fitri", "@gilang", "@hana"],
+      "guide": "Tempel semua nama peserta arisan atau giveaway, atur bobot jika ada bonus entri, lalu putar secara live.",
+      "faqs": [
+        { "q": "Bisa pilih lebih dari 1 pemenang?", "a": "Aktifkan Mode Eliminasi agar pemenang sebelumnya terhapus otomatis." },
+        { "q": "Bisa lihat riwayat pemenang?", "a": "Ya, semua hasil tercatat di panel Riwayat Putaran." }
+      ]
+    },
+    "truth-or-dare": {
+      "title": "Roda Truth or Dare Online — Game Pesta",
+      "description": "Main Truth or Dare bareng teman dengan roda putar interaktif.",
+      "h1": "Roda Truth or Dare",
+      "items": ["Truth", "Dare", "Double Dare", "Truth", "Kartu Bebas", "Lewati"],
+      "guide": "Tambahkan tantangan seru versi tongkrongan Anda dan putar dengan efek suara.",
+      "faqs": [
+        { "q": "Bisa ubah tantangan?", "a": "Bisa, edit langsung di daftar pilihan." },
+        { "q": "Ada efek suara?", "a": "Ya, lengkap dengan suara putaran dan konfeti." }
+      ]
+    },
+    "random-number-1-100": {
+      "title": "Roda Angka Acak 1–100",
+      "description": "Putar roda untuk memilih angka acak antara 1 sampai 100.",
+      "h1": "Roda Angka Acak (1–100)",
+      "items": ["10", "20", "30", "40", "50", "60", "70", "80", "90", "100"],
+      "guide": "Alternatif visual yang seru untuk undian nomor, kuis kelas, dan permainan angka.",
+      "faqs": [
+        { "q": "Bisa masukkan semua angka 1-100?", "a": "Bisa, tempel 1 sampai 100 di kotak daftar." },
+        { "q": "Bisa cegah angka kembar?", "a": "Aktifkan Mode Eliminasi agar angka yang keluar langsung dihapus." }
+      ]
+    },
+    "random-number-1-10": {
+      "title": "Roda Angka Acak 1–10",
+      "description": "Pilih angka acak 1 sampai 10 dengan roda putar cepat.",
+      "h1": "Roda Angka Acak (1–10)",
+      "items": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
+      "guide": "Cocok untuk permainan anak, kuis singkat, dan penentuan urutan.",
+      "faqs": [
+        { "q": "Apakah semua angka peluangnya sama?", "a": "Ya, masing-masing 10%." },
+        { "q": "Perlu daftar akun?", "a": "Tidak perlu sama sekali." }
+      ]
+    },
+    "prize-wheel": {
+      "title": "Roda Hadiah Custom — Spin to Win",
+      "description": "Buat roda hadiah untuk acara, bazar, toko, dan live streaming.",
+      "h1": "Roda Hadiah Custom",
+      "items": ["Hadiah Utama", "Kopi Gratis", "Diskon 10%", "Coba Lagi", "Voucher", "Kotak Misteri"],
+      "guide": "Atur hadiah menarik dan gunakan Peluang Berbobot agar hadiah utama lebih langka.",
+      "faqs": [
+        { "q": "Bisa atur peluang hadiah utama lebih kecil?", "a": "Ya, aktifkan Peluang Berbobot." },
+        { "q": "Bisa layar penuh di acara?", "a": "Ya, klik tombol Layar Penuh." }
+      ]
+    },
+    "decision-wheel": {
+      "title": "Roda Pembuat Keputusan Online",
+      "description": "Berhenti bingung dan biarkan roda memilih keputusan terbaik.",
+      "h1": "Roda Keputusan Acak",
+      "items": ["Lakukan Sekarang", "Tunggu 10 Menit", "Tanya Teman", "Istirahat Dulu", "Mulai Pelan", "Lempar Koin"],
+      "guide": "Masukkan pilihan Anda, putar sekali, dan jalani hasilnya.",
+      "faqs": [
+        { "q": "Bisa simpan daftar pilihan?", "a": "Klik Bagikan untuk menyimpan link." },
+        { "q": "Gratis?", "a": "100% gratis." }
+      ]
+    },
+    "movie-picker": {
+      "title": "Roda Pemilih Film — Nonton Apa Malam Ini",
+      "description": "Berhenti scroll berjam-jam, putar roda untuk pilih film!",
+      "h1": "Roda Pemilih Film",
+      "items": ["Aksi", "Komedi", "Thriller", "Sci-Fi", "Horor", "Drama", "Animasi", "Dokumenter"],
+      "guide": "Masukkan daftar film atau genre, lalu putar dengan Mode Eliminasi sampai tersisa 1 film.",
+      "faqs": [
+        { "q": "Bisa eliminasi satu per satu?", "a": "Ya, aktifkan Mode Eliminasi." },
+        { "q": "Bisa kirim ke grup teman?", "a": "Ya, salin link bagikan." }
+      ]
+    },
+    "chore-wheel": {
+      "title": "Roda Tugas Rumah — Pembagi Pekerjaan Adil",
+      "description": "Bagi tugas bersih-bersih rumah atau kos secara adil dan seru.",
+      "h1": "Roda Tugas Rumah",
+      "items": ["Cuci Piring", "Sapu Lantai", "Buang Sampah", "Rapikan Dapur", "Cuci Baju", "Lap Meja"],
+      "guide": "Jadikan jadwal piket kos atau rumah lebih adil dengan putaran roda.",
+      "faqs": [
+        { "q": "Bisa lihat riwayat tugas?", "a": "Ya, cek panel Riwayat Putaran." },
+        { "q": "Bisa edit daftar?", "a": "Tentu, ubah kapan saja." }
+      ]
+    },
+    "random-letter-picker": {
+      "title": "Roda Huruf Acak (A–Z) — Pemilih Alfabet",
+      "description": "Putar roda huruf A sampai Z untuk game kata dan belajar di kelas.",
+      "h1": "Roda Huruf Acak (A–Z)",
+      "items": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"],
+      "guide": "Cocok untuk game tebak kata dan belajar membaca. Aktifkan Mode Eliminasi agar huruf tidak berulang.",
+      "faqs": [
+        { "q": "Apakah lengkap A-Z?", "a": "Ya, semua 26 huruf sudah siap." },
+        { "q": "Bisa hapus huruf tertentu?", "a": "Bisa, hapus langsung dari daftar." }
+      ]
+    },
+    "workout-picker": {
+      "title": "Roda Olahraga Acak — Fitness Spinner",
+      "description": "Buat latihan di rumah lebih seru dengan roda putar olahraga.",
+      "h1": "Roda Olahraga Acak",
+      "items": ["20 Push-up", "30s Plank", "25 Squat", "15 Burpee", "40 Jumping Jack", "20 Lunge"],
+      "guide": "Putar untuk menentukan gerakan berikutnya dan aktifkan Mode Eliminasi untuk menyelesaikan seluruh sirkuit.",
+      "faqs": [
+        { "q": "Bisa ubah jumlah repetisi?", "a": "Ya, sesuaikan dengan kemampuan Anda." },
+        { "q": "Nyaman dipakai di HP?", "a": "Ya, tombol besar dan responsif." }
+      ]
+    }
+  }
+}

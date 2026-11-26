@@ -1,0 +1,229 @@
+{
+  "Metadata": {
+    "title": "Spin Wheel — Free Random Name & Decision Picker",
+    "description": "Free online spin wheel with elimination mode, weighted odds, sound effects, shareable links, and embeddable classroom widgets. No signup required."
+  },
+  "UI": {
+    "brand": "SpinPicker",
+    "spin": "SPIN",
+    "spinning": "Spinning...",
+    "entries": "Entries",
+    "addPlaceholder": "Add new item...",
+    "add": "Add",
+    "bulkPlaceholder": "Paste names (one per line)...",
+    "applyBulk": "Replace List",
+    "shuffle": "Shuffle",
+    "sort": "Sort A-Z",
+    "reset": "Reset",
+    "eliminationMode": "Elimination Mode (Remove Winner)",
+    "weightedMode": "Weighted Odds",
+    "sound": "Sound Effects",
+    "fullscreen": "Fullscreen",
+    "exitFullscreen": "Exit Fullscreen",
+    "share": "Share Wheel",
+    "embed": "Embed Widget",
+    "copied": "Copied!",
+    "winner": "Winner!",
+    "removeWinner": "Remove Winner",
+    "keepWinner": "Keep & Continue",
+    "history": "Spin History",
+    "noHistory": "No spins yet. Click SPIN to start!",
+    "clearHistory": "Clear",
+    "allWheels": "Popular Wheels",
+    "embedTitle": "Share or Embed This Wheel",
+    "shareUrlLabel": "Shareable Link (whatsapp, etc.)",
+    "embedCodeLabel": "Embed on WordPress, Google Sites, or Blog",
+    "copy": "Copy",
+    "close": "Close",
+    "language": "Language"
+  },
+  "Home": {
+    "h1": "Free Spin Wheel & Random Picker",
+    "subtitle": "Add names, options, or numbers and spin the wheel. Built for teachers, giveaways, and fast decisions—100% private in your browser.",
+    "defaultItems": [" Alex", " Priya", " Rahul", " Sara", " Leo", " Maya", " Sam", " Zara"],
+    "guideTitle": "How to Use the Online Spin Wheel",
+    "guideBody": "Enter your names or choices in the text box, toggle Elimination Mode if you want each winner removed before the next round, and click SPIN. Every custom wheel can be saved as a shareable link or embedded on your classroom website with zero signup.",
+    "faqTitle": "Frequently Asked Questions",
+    "faqs": [
+      {
+        "q": "Is this spin wheel truly random and fair?",
+        "a": "Yes. Each spin uses browser-side cryptographic randomness (crypto.getRandomValues) combined with smooth physics so every entry gets a fair, unbiased chance according to its weight."
+      },
+      {
+        "q": "Are my student names or lists saved on a server?",
+        "a": "No. Everything runs 100% locally in your browser. When you click Share, your list is compressed directly into the URL."
+      },
+      {
+        "q": "How does Elimination Mode work?",
+        "a": "When Elimination Mode is enabled, the winning slice is automatically removed after each spin—ideal for classroom cold-calling and multi-round giveaways."
+      }
+    ]
+  },
+  "Wheels": {
+    "yes-or-no": {
+      "title": "Yes or No Wheel — Instant Random Decision Spinner",
+      "description": "Can't decide? Spin the free Yes or No wheel for an instant, unbiased answer.",
+      "h1": "Yes or No Decision Wheel",
+      "items": ["Yes", "No", "Yes", "No", "Yes", "No"],
+      "guide": "Use the Yes or No wheel whenever a coin flip feels too plain. Each slice has equal probability, making it great for quick choices, classroom polls, and party dares.",
+      "faqs": [
+        { "q": "Is the Yes or No wheel 50/50?", "a": "Yes, with equal Yes and No slices, each outcome has an exact 50% chance." },
+        { "q": "Can I add Maybe?", "a": "Yes! Type Maybe in the entries box or try our Yes, No, Maybe wheel." }
+      ]
+    },
+    "yes-no-maybe": {
+      "title": "Yes, No, Maybe Wheel — 3-Option Decision Spinner",
+      "description": "Spin the Yes, No, Maybe wheel when you need a third option for tough decisions.",
+      "h1": "Yes, No, Maybe Wheel",
+      "items": ["Yes", "No", "Maybe", "Yes", "No", "Maybe"],
+      "guide": "Sometimes life isn't purely yes or no. This 3-way spinner adds a Maybe slice for flexible group decisions and games.",
+      "faqs": [
+        { "q": "Can I change the odds of Maybe?", "a": "Turn on Weighted Odds to give Yes, No, or Maybe higher or lower probability." },
+        { "q": "Does it work on mobile?", "a": "Yes, the canvas wheel scales cleanly on phones, tablets, and smartboards." }
+      ]
+    },
+    "what-to-eat": {
+      "title": "What to Eat Wheel — Random Food & Dinner Picker",
+      "description": "Stop arguing over dinner! Spin the What to Eat wheel to pick your next meal.",
+      "h1": "What to Eat Wheel",
+      "items": ["Pizza", "Biryani", "Burgers", "Tacos", "Sushi", "Pasta", "Salad", "Chinese"],
+      "guide": "End mealtime indecision in seconds. Customize the wheel with your favorite local restaurants or cuisines, turn on Elimination Mode to narrow down choices, and let the spinner decide.",
+      "faqs": [
+        { "q": "Can I save my favorite restaurants?", "a": "Yes, click Share Wheel to bookmark your custom restaurant URL for next time." },
+        { "q": "Can couples use this for date night?", "a": "Yes, add both partners' top 4 picks and spin until one dish remains." }
+      ]
+    },
+    "classroom-name-picker": {
+      "title": "Classroom Name Picker — Free Student Wheel for Teachers",
+      "description": "Fairly pick students in class with Elimination Mode, fullscreen projector view, and no signup.",
+      "h1": "Classroom Name Picker Wheel",
+      "items": ["Student 1", "Student 2", "Student 3", "Student 4", "Student 5", "Student 6", "Student 7", "Student 8"],
+      "guide": "Paste your entire class roster once, enable Elimination Mode so no student is called twice, and switch to Fullscreen Mode for your classroom projector or smartboard.",
+      "faqs": [
+        { "q": "Can I paste names from Excel or Google Sheets?", "a": "Yes, paste your column of names directly into the bulk list box." },
+        { "q": "Can I embed this on Google Sites?", "a": "Yes, click Embed Widget to copy an iframe ready for Google Sites or class blogs." }
+      ]
+    },
+    "random-team-generator": {
+      "title": "Random Team Generator Wheel — Fair Group Picker",
+      "description": "Spin to assign players or students into random teams quickly and transparently.",
+      "h1": "Random Team Generator Wheel",
+      "items": ["Team Red", "Team Blue", "Team Green", "Team Yellow"],
+      "guide": "Use this wheel to assign students, coworkers, or sports players into fair random teams. Turn on Elimination Mode when drafting captains or alternating picks.",
+      "faqs": [
+        { "q": "How do I pick balanced teams?", "a": "Add your team names or player list and enable Elimination Mode to draft one by one." },
+        { "q": "Is there a limit on entries?", "a": "No, you can paste dozens of names smoothly." }
+      ]
+    },
+    "giveaway-winner-picker": {
+      "title": "Giveaway Winner Picker — Transparent Raffle Wheel",
+      "description": "Pick fair giveaway and raffle winners live on YouTube, Twitch, or Instagram.",
+      "h1": "Giveaway Winner Picker Wheel",
+      "items": ["@alex", "@maria", "@sam", "@priya", "@john", "@nina", "@leo", "@zara"],
+      "guide": "Paste all participant usernames, enable Weighted Odds if bonus entries are allowed, and spin live on stream. Export your winner history anytime.",
+      "faqs": [
+        { "q": "Can I give some participants extra entries?", "a": "Yes! Enable Weighted Odds and set 2x or 3x weight on bonus entries." },
+        { "q": "Can I pick multiple winners?", "a": "Enable Elimination Mode so each winner is removed before spinning for the next prize." }
+      ]
+    },
+    "truth-or-dare": {
+      "title": "Truth or Dare Wheel — Party Game Spinner Online",
+      "description": "Play Truth or Dare with friends using our interactive spinning wheel.",
+      "h1": "Truth or Dare Spin Wheel",
+      "items": ["Truth", "Dare", "Double Dare", "Truth", "Wild Card", "Skip"],
+      "guide": "Gather your friends and let the wheel decide who gets a Truth, a Dare, or a Double Dare. Add custom inside jokes or challenges directly to the wheel.",
+      "faqs": [
+        { "q": "Can we add custom dares?", "a": "Yes, edit or paste your own custom prompts in the entries panel." },
+        { "q": "Does it have sound effects?", "a": "Yes, toggle Sound Effects for realistic wheel ticks and celebration chimes." }
+      ]
+    },
+    "random-number-1-100": {
+      "title": "Random Number Wheel 1–100 — Visual Number Picker",
+      "description": "Spin a visual wheel to pick a random number between 1 and 100.",
+      "h1": "Random Number Wheel (1–100)",
+      "items": ["10", "20", "30", "40", "50", "60", "70", "80", "90", "100"],
+      "guide": "Need a fun visual alternative to plain text number generators? Customize the range or paste numbers 1–100 for raffles, bingo, and classroom math.",
+      "faqs": [
+        { "q": "Can I put all 100 numbers on the wheel?", "a": "Yes, paste 1 to 100 (one per line) in the bulk editor." },
+        { "q": "Does it prevent repeat numbers?", "a": "Turn on Elimination Mode to remove each drawn number automatically." }
+      ]
+    },
+    "random-number-1-10": {
+      "title": "Random Number Wheel 1–10 — Quick Number Spinner",
+      "description": "Pick a random number from 1 to 10 with a smooth spinning wheel.",
+      "h1": "Random Number Wheel (1–10)",
+      "items": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
+      "guide": "Perfect for board games, kids' math activities, and quick tie-breakers when you need a fair pick between 1 and 10.",
+      "faqs": [
+        { "q": "Is every number equally likely?", "a": "Yes, all 10 slices have equal 10% probability by default." },
+        { "q": "Can I use it offline?", "a": "Once loaded in your browser, all spins run locally without needing further server calls." }
+      ]
+    },
+    "prize-wheel": {
+      "title": "Prize Wheel — Free Custom Spin-to-Win Wheel",
+      "description": "Create a custom prize wheel for events, trade shows, classrooms, and streams.",
+      "h1": "Custom Prize Wheel",
+      "items": ["Grand Prize", "Free Coffee", "10% Off", "Try Again", "Gift Card", "Mystery Box", "20% Off", "Bonus Spin"],
+      "guide": "Set up a live prize wheel in seconds. Use Weighted Odds to make the Grand Prize rarer while keeping smaller rewards frequent.",
+      "faqs": [
+        { "q": "Can I make the Grand Prize harder to win?", "a": "Yes, enable Weighted Odds and set higher weights on common prizes." },
+        { "q": "Does it work on iPad or smartboards?", "a": "Yes, switch to Fullscreen Mode for booths and classrooms." }
+      ]
+    },
+    "decision-wheel": {
+      "title": "Decision Wheel — Random Choice Maker Online",
+      "description": "Overcome overthinking with a free customizable decision-maker wheel.",
+      "h1": "Random Decision Wheel",
+      "items": ["Do It Now", "Wait 10 Mins", "Ask a Friend", "Take a Break", "Start Small", "Flip a Coin"],
+      "guide": "When every choice looks equal, let the wheel break the deadlock. Add your options, spin once, and commit to the result.",
+      "faqs": [
+        { "q": "Can I save my decision list?", "a": "Yes, use Share Wheel to get a permanent link containing your choices." },
+        { "q": "Is any account required?", "a": "No signup or login is ever required." }
+      ]
+    },
+    "movie-picker": {
+      "title": "Movie Picker Wheel — What to Watch Tonight",
+      "description": "Stop scrolling Netflix for 40 minutes. Spin the Movie Picker wheel!",
+      "h1": "Movie & Genre Picker Wheel",
+      "items": ["Action", "Comedy", "Thriller", "Sci-Fi", "Horror", "Drama", "Animation", "Documentary"],
+      "guide": "Add 6–10 movies from your watchlist or pick a genre first, then let the wheel choose tonight's film without endless scrolling.",
+      "faqs": [
+        { "q": "Can we narrow down 10 movies to 1?", "a": "Turn on Elimination Mode and keep spinning until your final movie remains!" },
+        { "q": "Can I share the movie wheel with friends?", "a": "Yes, click Share Wheel and send the link in your group chat." }
+      ]
+    },
+    "chore-wheel": {
+      "title": "Chore Wheel Spinner — Fair Household Task Picker",
+      "description": "Assign daily chores and cleaning tasks fairly among roommates or kids.",
+      "h1": "Household Chore Wheel",
+      "items": ["Wash Dishes", "Vacuum Floor", "Take Out Trash", "Clean Kitchen", "Laundry", "Organize Desk"],
+      "guide": "Turn boring chores into a quick game. Kids and roommates spin the wheel and eliminate completed tasks as you go.",
+      "faqs": [
+        { "q": "Can we track who got what?", "a": "Yes, check the Spin History panel to see every result." },
+        { "q": "Can I customize the chores?", "a": "Yes, add or remove tasks anytime." }
+      ]
+    },
+    "random-letter-picker": {
+      "title": "Random Letter Picker (A–Z) — Alphabet Spin Wheel",
+      "description": "Spin the A to Z alphabet wheel for Scattergories, phonics, and word games.",
+      "h1": "Random Letter Picker Wheel (A–Z)",
+      "items": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"],
+      "guide": "A clean A–Z alphabet spinner for classroom phonics, Scattergories, name games, and vocabulary warm-ups. Enable Elimination Mode so letters don't repeat.",
+      "faqs": [
+        { "q": "Are all 26 letters included?", "a": "Yes, A through Z are preloaded and ready to spin." },
+        { "q": "Can I remove Q, X, Z?", "a": "Yes, delete any letter from the entries list in seconds." }
+      ]
+    },
+    "workout-picker": {
+      "title": "Workout & Exercise Wheel — Random Fitness Spinner",
+      "description": "Gamify your home workout by spinning for random exercises.",
+      "h1": "Random Workout Picker Wheel",
+      "items": ["20 Push-ups", "30s Plank", "25 Squats", "15 Burpees", "40 Jumping Jacks", "20 Lunges"],
+      "guide": "Keep home workouts exciting. Spin for your next exercise set and use Elimination Mode to complete a full 6-round circuit.",
+      "faqs": [
+        { "q": "Can I adjust reps and exercises?", "a": "Yes, customize every slice to match your fitness level." },
+        { "q": "Does it work on phone?", "a": "Yes, mobile-friendly with big tap targets." }
+      ]
+    }
+  }
+}

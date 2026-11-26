@@ -1,0 +1,220 @@
+{
+  "Metadata": {
+    "title": "Vòng Quay May Mắn Miễn Phí — Quay Tên & Chọn Ngẫu Nhiên",
+    "description": "Vòng quay may mắn online miễn phí có chế độ loại trừ, hiệu ứng âm thanh, chia sẻ link và nhúng web cho lớp học, livestream."
+  },
+  "UI": {
+    "brand": "SpinWheel",
+    "spin": "QUAY",
+    "spinning": "Đang quay...",
+    "entries": "Danh sách",
+    "addPlaceholder": "Thêm mục mới...",
+    "add": "Thêm",
+    "bulkPlaceholder": "Dán danh sách tên (mỗi dòng một tên)...",
+    "applyBulk": "Thay thế",
+    "shuffle": "Trộn",
+    "sort": "Sắp xếp A-Z",
+    "reset": "Đặt lại",
+    "eliminationMode": "Chế độ loại trừ (Xóa người thắng)",
+    "weightedMode": "Tỷ lệ trọng số",
+    "sound": "Âm thanh",
+    "fullscreen": "Toàn màn hình",
+    "exitFullscreen": "Thoát",
+    "share": "Chia sẻ",
+    "embed": "Nhúng Web",
+    "copied": "Đã sao chép!",
+    "winner": "Người chiến thắng!",
+    "removeWinner": "Xóa người này",
+    "keepWinner": "Giữ & Tiếp tục",
+    "history": "Lịch sử quay",
+    "noHistory": "Chưa có lượt quay. Nhấn QUAY ngay!",
+    "clearHistory": "Xóa",
+    "allWheels": "Vòng Quay Phổ Biến",
+    "embedTitle": "Chia sẻ hoặc Nhúng Vòng Quay",
+    "shareUrlLabel": "Link chia sẻ (lưu toàn bộ danh sách)",
+    "embedCodeLabel": "Mã iframe nhúng vào Blog / Google Sites",
+    "copy": "Sao chép",
+    "close": "Đóng",
+    "language": "Ngôn ngữ"
+  },
+  "Home": {
+    "h1": "Vòng Quay May Mắn & Chọn Tên Ngẫu Nhiên",
+    "subtitle": "Nhập tên, số hoặc lựa chọn và nhấn quay. Miễn phí 100%, không cần đăng nhập.",
+    "defaultItems": ["Minh", "Lan", "Hùng", "Trang", "Tuấn", "Linh", "Nam", "Hà"],
+    "guideTitle": "Cách sử dụng Vòng Quay May Mắn",
+    "guideBody": "Nhập danh sách vào ô văn bản, bật Chế độ loại trừ nếu muốn xóa người đã trúng ở lượt sau và nhấn QUAY. Bạn có thể chia sẻ link hoặc nhúng miễn phí lên website.",
+    "faqTitle": "Câu hỏi thường gặp",
+    "faqs": [
+      { "q": "Vòng quay có thực sự ngẫu nhiên không?", "a": "Có, sử dụng bộ tạo số ngẫu nhiên an toàn của trình duyệt để đảm bảo công bằng tuyệt đối." },
+      { "q": "Dữ liệu có bị lưu lên máy chủ không?", "a": "Không, mọi thứ chạy 100% trên trình duyệt của bạn." },
+      { "q": "Chế độ loại trừ hoạt động thế nào?", "a": "Sau mỗi lần quay, bạn có thể xóa người vừa trúng để không bị lặp lại." }
+    ]
+  },
+  "Wheels": {
+    "yes-or-no": {
+      "title": "Vòng Quay Có hoặc Không — Quyết Định Nhanh",
+      "description": "Phân vân không biết chọn gì? Quay vòng quay Có hoặc Không miễn phí ngay.",
+      "h1": "Vòng Quay Có hoặc Không",
+      "items": ["Có", "Không", "Có", "Không", "Có", "Không"],
+      "guide": "Công cụ giúp bạn đưa ra quyết định nhanh 50/50 thay cho tung đồng xu.",
+      "faqs": [
+        { "q": "Tỷ lệ Có và Không có bằng nhau không?", "a": "Có, mỗi lựa chọn chiếm đúng 50%." },
+        { "q": "Có thể thêm Có thể không?", "a": "Được, bạn chỉ cần gõ thêm vào danh sách." }
+      ]
+    },
+    "yes-no-maybe": {
+      "title": "Vòng Quay Có, Không, Có Thể",
+      "description": "Vòng quay 3 lựa chọn cho những quyết định linh hoạt hơn.",
+      "h1": "Vòng Quay Có, Không, Có Thể",
+      "items": ["Có", "Không", "Có thể", "Có", "Không", "Có thể"],
+      "guide": "Phù hợp cho trò chơi nhóm khi cần thêm lựa chọn thứ ba.",
+      "faqs": [
+        { "q": "Dùng trên điện thoại được không?", "a": "Có, hiển thị mượt mà trên mọi điện thoại." },
+        { "q": "Có mất phí không?", "a": "Hoàn toàn miễn phí." }
+      ]
+    },
+    "what-to-eat": {
+      "title": "Vòng Quay Hôm Nay Ăn Gì — Chọn Món Ngẫu Nhiên",
+      "description": "Hết đau đầu nghĩ món ăn! Quay vòng quay ăn gì hôm nay ngay.",
+      "h1": "Vòng Quay Hôm Nay Ăn Gì",
+      "items": ["Phở", "Bún chả", "Cơm tấm", "Bánh mì", "Lẩu", "Gà rán", "Pizza", "Trà sữa"],
+      "guide": "Thêm các món ăn yêu thích của bạn và để vòng quay chọn bữa trưa hoặc bữa tối.",
+      "faqs": [
+        { "q": "Có thể lưu danh sách quán quen không?", "a": "Có, nhấn Chia sẻ để lưu đường link riêng." },
+        { "q": "Có thể loại từng món không?", "a": "Bật Chế độ loại trừ để chọn món cuối cùng." }
+      ]
+    },
+    "classroom-name-picker": {
+      "title": "Vòng Quay Gọi Tên Học Sinh — Dành Cho Giáo Viên",
+      "description": "Gọi tên học sinh công bằng trong lớp học với chế độ loại trừ.",
+      "h1": "Vòng Quay Chọn Tên Học Sinh",
+      "items": ["Học sinh 1", "Học sinh 2", "Học sinh 3", "Học sinh 4", "Học sinh 5", "Học sinh 6"],
+      "guide": "Dán danh sách lớp từ Excel, bật Chế độ loại trừ và mở Toàn màn hình trên máy chiếu.",
+      "faqs": [
+        { "q": "Có dán danh sách từ Excel được không?", "a": "Có, dán trực tiếp mỗi tên một dòng." },
+        { "q": "Có nhúng vào Google Sites được không?", "a": "Có, dùng nút Chia sẻ để lấy mã nhúng." }
+      ]
+    },
+    "random-team-generator": {
+      "title": "Vòng Quay Chia Đội Ngẫu Nhiên",
+      "description": "Chia nhóm học sinh hoặc đội chơi game nhanh và công bằng.",
+      "h1": "Vòng Quay Chia Nhóm Ngẫu Nhiên",
+      "items": ["Đội Đỏ", "Đội Xanh", "Đội Vàng", "Đội Tím"],
+      "guide": "Dùng để chia đội cho hoạt động lớp học, thể thao hoặc team building.",
+      "faqs": [
+        { "q": "Làm sao chia đều?", "a": "Bật Chế độ loại trừ để chọn lần lượt từng thành viên." },
+        { "q": "Có giới hạn tên không?", "a": "Không, bạn có thể nhập hàng chục tên." }
+      ]
+    },
+    "giveaway-winner-picker": {
+      "title": "Vòng Quay Trúng Thưởng Giveaway & Livestream",
+      "description": "Quay số chọn người thắng minigame công khai trên Facebook, TikTok, YouTube.",
+      "h1": "Vòng Quay Chọn Người Thắng Giveaway",
+      "items": ["@minh", "@lan", "@hung", "@trang", "@tuan", "@linh"],
+      "guide": "Dán tên người tham gia và quay trực tiếp trên livestream với hiệu ứng pháo giấy.",
+      "faqs": [
+        { "q": "Chọn nhiều người thắng được không?", "a": "Bật Chế độ loại trừ để quay tiếp giải sau." },
+        { "q": "Có lưu lịch sử không?", "a": "Có, xem trong mục Lịch sử quay." }
+      ]
+    },
+    "truth-or-dare": {
+      "title": "Vòng Quay Thật Hay Thách Online",
+      "description": "Chơi Thật Hay Thách cùng bạn bè với vòng quay vui nhộn.",
+      "h1": "Vòng Quay Thật Hay Thách",
+      "items": ["Nói thật", "Thử thách", "Thử thách x2", "Nói thật", "Đặc quyền", "Bỏ lượt"],
+      "guide": "Thêm các thử thách vui nhộn của nhóm bạn và bắt đầu quay.",
+      "faqs": [
+        { "q": "Có sửa được nội dung không?", "a": "Có, sửa trực tiếp trong ô danh sách." },
+        { "q": "Có âm thanh không?", "a": "Có hiệu ứng âm thanh khi quay và chúc mừng." }
+      ]
+    },
+    "random-number-1-100": {
+      "title": "Vòng Quay Số Ngẫu Nhiên 1–100",
+      "description": "Quay vòng quay chọn số ngẫu nhiên từ 1 đến 100.",
+      "h1": "Vòng Quay Số (1–100)",
+      "items": ["10", "20", "30", "40", "50", "60", "70", "80", "90", "100"],
+      "guide": "Phù hợp cho bốc thăm trúng thưởng, lô tô và trò chơi toán học.",
+      "faqs": [
+        { "q": "Có thể dán đủ 1 đến 100 không?", "a": "Có, dán mỗi số một dòng." },
+        { "q": "Có tránh trùng số không?", "a": "Bật Chế độ loại trừ để xóa số đã quay." }
+      ]
+    },
+    "random-number-1-10": {
+      "title": "Vòng Quay Số Ngẫu Nhiên 1–10",
+      "description": "Chọn nhanh một số ngẫu nhiên từ 1 đến 10.",
+      "h1": "Vòng Quay Số (1–10)",
+      "items": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
+      "guide": "Nhanh gọn cho trò chơi trẻ em và phân thắng bại.",
+      "faqs": [
+        { "q": "Mỗi số có xác suất bằng nhau không?", "a": "Có, mỗi số đúng 10%." },
+        { "q": "Có cần đăng ký tài khoản không?", "a": "Không cần." }
+      ]
+    },
+    "prize-wheel": {
+      "title": "Vòng Quay Quà Tặng — Spin to Win",
+      "description": "Tạo vòng quay phần thưởng cho sự kiện, cửa hàng và minigame.",
+      "h1": "Vòng Quay Phần Thưởng",
+      "items": ["Giải Đặc Biệt", "Cà Phê Free", "Giảm 10%", "Chúc May Mắn", "Voucher", "Hộp Bí Mật"],
+      "guide": "Tùy chỉnh phần thưởng cho sự kiện bán hàng hoặc tiệc công ty.",
+      "faqs": [
+        { "q": "Dùng trên iPad ở gian hàng được không?", "a": "Có, bật Toàn màn hình để hiển thị đẹp nhất." },
+        { "q": "Có chia sẻ được không?", "a": "Có, nhấn Chia sẻ để lấy link." }
+      ]
+    },
+    "decision-wheel": {
+      "title": "Vòng Quay Quyết Định Online",
+      "description": "Hết đắn đo với vòng quay lựa chọn ngẫu nhiên miễn phí.",
+      "h1": "Vòng Quay Quyết Định",
+      "items": ["Làm ngay", "Đợi 10 phút", "Hỏi bạn bè", "Nghỉ ngơi", "Bắt đầu nhỏ", "Tung đồng xu"],
+      "guide": "Nhập các phương án và để vòng quay quyết định giúp bạn.",
+      "faqs": [
+        { "q": "Có lưu lại được không?", "a": "Nhấn Chia sẻ để lưu link riêng." },
+        { "q": "Có giới hạn lượt quay không?", "a": "Không giới hạn." }
+      ]
+    },
+    "movie-picker": {
+      "title": "Vòng Quay Chọn Phim Tối Nay",
+      "description": "Không biết xem phim gì? Quay vòng quay chọn thể loại phim ngay.",
+      "h1": "Vòng Quay Chọn Phim",
+      "items": ["Hành động", "Hài hước", "Kinh dị", "Viễn tưởng", "Tình cảm", "Hoạt hình", "Tài liệu"],
+      "guide": "Dán danh sách phim muốn xem và quay để chọn phim cho tối nay.",
+      "faqs": [
+        { "q": "Có loại dần phim không?", "a": "Bật Chế độ loại trừ để giữ lại 1 phim cuối." },
+        { "q": "Chia sẻ cho bạn bè được không?", "a": "Có, gửi link chia sẻ cho nhóm bạn." }
+      ]
+    },
+    "chore-wheel": {
+      "title": "Vòng Quay Chia Việc Nhà Công Bằng",
+      "description": "Phân công việc nhà vui vẻ cho gia đình hoặc bạn cùng phòng.",
+      "h1": "Vòng Quay Việc Nhà",
+      "items": ["Rửa bát", "Quét nhà", "Đổ rác", "Lau bếp", "Giặt đồ", "Dọn bàn"],
+      "guide": "Biến việc dọn dẹp thành trò chơi công bằng cho mọi người.",
+      "faqs": [
+        { "q": "Có xem lại lịch sử chia việc không?", "a": "Có trong mục Lịch sử quay." },
+        { "q": "Có tự thêm việc được không?", "a": "Có, sửa trực tiếp trong ô danh sách." }
+      ]
+    },
+    "random-letter-picker": {
+      "title": "Vòng Quay Chữ Cái Ngẫu Nhiên (A–Z)",
+      "description": "Quay bảng chữ cái A đến Z cho trò chơi từ vựng và lớp học.",
+      "h1": "Vòng Quay Chữ Cái (A–Z)",
+      "items": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"],
+      "guide": "Dùng cho trò chơi nối chữ và học tiếng Anh trên lớp.",
+      "faqs": [
+        { "q": "Có đủ 26 chữ cái không?", "a": "Có, đủ từ A đến Z." },
+        { "q": "Có xóa bớt chữ khó không?", "a": "Có, xóa trực tiếp trong danh sách." }
+      ]
+    },
+    "workout-picker": {
+      "title": "Vòng Quay Bài Tập Thể Dục Ngẫu Nhiên",
+      "description": "Tạo hứng thú tập luyện tại nhà với vòng quay bài tập.",
+      "h1": "Vòng Quay Tập Thể Dục",
+      "items": ["20 Chống đẩy", "30s Plank", "25 Squat", "15 Burpees", "40 Bật nhảy", "20 Chùng chân"],
+      "guide": "Quay để chọn bài tập tiếp theo và bật Chế độ loại trừ để hoàn thành cả vòng.",
+      "faqs": [
+        { "q": "Có đổi số lần tập được không?", "a": "Có, tự chỉnh sửa theo sức của bạn." },
+        { "q": "Dùng trên điện thoại tiện không?", "a": "Rất tiện với nút QUAY lớn." }
+      ]
+    }
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "Metadata": {
+    "title": "Ruleta Aleatoria Gratis — Girar la Ruleta de Nombres y Decisiones",
+    "description": "Ruleta aleatoria online gratis con modo eliminación, probabilidades, sonidos, enlace compartible y widget para clases o sorteos."
+  },
+  "UI": {
+    "brand": "SpinPicker",
+    "spin": "GIRAR",
+    "spinning": "Girando...",
+    "entries": "Opciones",
+    "addPlaceholder": "Añadir opción...",
+    "add": "Añadir",
+    "bulkPlaceholder": "Pega nombres (uno por línea)...",
+    "applyBulk": "Reemplazar lista",
+    "shuffle": "Mezclar",
+    "sort": "Ordenar A-Z",
+    "reset": "Reiniciar",
+    "eliminationMode": "Modo Eliminación (Quitar ganador)",
+    "weightedMode": "Probabilidad Ponderada",
+    "sound": "Sonido",
+    "fullscreen": "Pantalla completa",
+    "exitFullscreen": "Salir",
+    "share": "Compartir",
+    "embed": "Incrustar Widget",
+    "copied": "¡Copiado!",
+    "winner": "¡Ganador!",
+    "removeWinner": "Eliminar ganador",
+    "keepWinner": "Mantener y seguir",
+    "history": "Historial",
+    "noHistory": "Aún no hay giros. ¡Pulsa GIRAR!",
+    "clearHistory": "Limpiar",
+    "allWheels": "Ruletas Populares",
+    "embedTitle": "Compartir o Incrustar Ruleta",
+    "shareUrlLabel": "Enlace compartible (guarda tus opciones)",
+    "embedCodeLabel": "Código iframe para tu web o blog",
+    "copy": "Copiar",
+    "close": "Cerrar",
+    "language": "Idioma"
+  },
+  "Home": {
+    "h1": "Ruleta Aleatoria Gratis Online",
+    "subtitle": "Añade nombres, números o premios y gira la ruleta. Ideal para profesores, sorteos y decisiones rápidas sin registro.",
+    "defaultItems": ["Ana", "Carlos", "Lucía", "Mateo", "Sofía", "Diego", "Elena", "Lucas"],
+    "guideTitle": "Cómo usar la Ruleta Aleatoria",
+    "guideBody": "Escribe tus opciones en la lista, activa el Modo Eliminación si deseas quitar al ganador en cada ronda y pulsa GIRAR. Puedes compartir tu ruleta con un enlace o incrustarla gratis en tu blog.",
+    "faqTitle": "Preguntas Frecuentes",
+    "faqs": [
+      { "q": "¿Es realmente aleatoria la ruleta?", "a": "Sí, utiliza aleatoriedad criptográfica del navegador para garantizar resultados justos." },
+      { "q": "¿Se guardan mis datos en algún servidor?", "a": "No, todo funciona 100% en tu navegador." },
+      { "q": "¿Cómo funciona el Modo Eliminación?", "a": "Elimina automáticamente la opción ganadora después de cada giro." }
+    ]
+  },
+  "Wheels": {
+    "yes-or-no": {
+      "title": "Ruleta Sí o No — Toma de Decisiones Rápida",
+      "description": "Gira la ruleta Sí o No gratis para tomar decisiones al instante.",
+      "h1": "Ruleta de Sí o No",
+      "items": ["Sí", "No", "Sí", "No", "Sí", "No"],
+      "guide": "Usa esta ruleta binaria cuando no puedas decidirte. Cada opción tiene exactamente un 50% de probabilidad.",
+      "faqs": [
+        { "q": "¿Tiene 50% de probabilidad?", "a": "Sí, cada resultado tiene exactamente la misma probabilidad." },
+        { "q": "¿Puedo añadir Tal Vez?", "a": "Claro, añádelo en la lista de opciones." }
+      ]
+    },
+    "yes-no-maybe": {
+      "title": "Ruleta Sí, No, Tal Vez — 3 Opciones",
+      "description": "Ruleta aleatoria con Sí, No y Tal Vez para decisiones flexibles.",
+      "h1": "Ruleta Sí, No, Tal Vez",
+      "items": ["Sí", "No", "Tal Vez", "Sí", "No", "Tal Vez"],
+      "guide": "Ideal para juegos y decisiones en grupo donde hace falta una tercera alternativa.",
+      "faqs": [
+        { "q": "¿Puedo cambiar los pesos?", "a": "Activa Probabilidad Ponderada para ajustar cada opción." },
+        { "q": "¿Funciona en el móvil?", "a": "Sí, funciona perfectamente en móviles y tablets." }
+      ]
+    },
+    "what-to-eat": {
+      "title": "Ruleta de Qué Comer Hoy — Selector de Comida",
+      "description": "¿No sabes qué cenar? Gira la ruleta de comida y decide en segundos.",
+      "h1": "Ruleta de Qué Comer",
+      "items": ["Pizza", "Tacos", "Hamburguesa", "Sushi", "Pasta", "Pollo", "Ensalada", "Comida China"],
+      "guide": "Termina con las dudas a la hora de comer. Agrega tus restaurantes favoritos y deja que la ruleta elija.",
+      "faqs": [
+        { "q": "¿Puedo guardar mis restaurantes?", "a": "Sí, pulsa Compartir para copiar el enlace de tu ruleta." },
+        { "q": "¿Sirve para parejas?", "a": "Sí, activen el Modo Eliminación hasta que quede un plato." }
+      ]
+    },
+    "classroom-name-picker": {
+      "title": "Ruleta de Nombres para Clases — Profesores",
+      "description": "Elige alumnos al azar con modo eliminación y pantalla completa.",
+      "h1": "Ruleta de Nombres para el Aula",
+      "items": ["Alumno 1", "Alumno 2", "Alumno 3", "Alumno 4", "Alumno 5", "Alumno 6", "Alumno 7", "Alumno 8"],
+      "guide": "Pega la lista de tu clase desde Excel, activa el Modo Eliminación y usa Pantalla Completa en la pizarra digital.",
+      "faqs": [
+        { "q": "¿Puedo pegar listas de Excel?", "a": "Sí, pega todos los nombres de una vez en el cuadro de texto." },
+        { "q": "¿Se puede poner en Google Sites?", "a": "Sí, usa el botón Incrustar Widget." }
+      ]
+    },
+    "random-team-generator": {
+      "title": "Ruleta Generadora de Equipos Aleatorios",
+      "description": "Divide grupos, estudiantes o jugadores en equipos justos.",
+      "h1": "Ruleta de Equipos Aleatorios",
+      "items": ["Equipo Rojo", "Equipo Azul", "Equipo Verde", "Equipo Amarillo"],
+      "guide": "Asigna personas a equipos rápidamente para juegos escolares, deportes o dinámicas de oficina.",
+      "faqs": [
+        { "q": "¿Cómo hago equipos equilibrados?", "a": "Activa el Modo Eliminación para ir asignando uno a uno." },
+        { "q": "¿Es gratis?", "a": "100% gratis y sin registro." }
+      ]
+    },
+    "giveaway-winner-picker": {
+      "title": "Ruleta para Sorteos — Elegir Ganador Gratis",
+      "description": "Haz sorteos transparentes en vivo para Instagram, YouTube o Twitch.",
+      "h1": "Ruleta para Sorteos Online",
+      "items": ["@alex", "@maria", "@carlos", "@sofia", "@juan", "@lucia", "@diego", "@elena"],
+      "guide": "Pega los participantes del sorteo, activa Probabilidad Ponderada si hay participaciones extra y gira en directo.",
+      "faqs": [
+        { "q": "¿Puedo dar doble oportunidad?", "a": "Sí, activa Probabilidad Ponderada para ajustar pesos." },
+        { "q": "¿Puedo elegir varios ganadores?", "a": "Usa el Modo Eliminación para sacar varios premios." }
+      ]
+    },
+    "truth-or-dare": {
+      "title": "Ruleta de Verdad o Reto Online",
+      "description": "Juega Verdad o Reto con amigos girando la ruleta virtual.",
+      "h1": "Ruleta Verdad o Reto",
+      "items": ["Verdad", "Reto", "Doble Reto", "Verdad", "Comodín", "Salta turno"],
+      "guide": "Añade tus propios retos divertidos y gira la ruleta con efectos de sonido en tus fiestas.",
+      "faqs": [
+        { "q": "¿Puedo personalizar los retos?", "a": "Sí, edita cualquier casilla fácilmente." },
+        { "q": "¿Tiene sonidos?", "a": "Sí, incluye sonidos al girar y confeti al ganar." }
+      ]
+    },
+    "random-number-1-100": {
+      "title": "Ruleta de Números 1 al 100 — Sorteo Numérico",
+      "description": "Elige un número al azar entre 1 y 100 girando la ruleta.",
+      "h1": "Ruleta de Números (1–100)",
+      "items": ["10", "20", "30", "40", "50", "60", "70", "80", "90", "100"],
+      "guide": "Ideal para rifas, bingos y juegos matemáticos. Pega del 1 al 100 en la lista masiva si quieres todos los números.",
+      "faqs": [
+        { "q": "¿Se repiten los números?", "a": "Activa Modo Eliminación para evitar repeticiones." },
+        { "q": "¿Puedo poner los 100 números?", "a": "Sí, pégalos en bloque uno por línea." }
+      ]
+    },
+    "random-number-1-10": {
+      "title": "Ruleta de Números 1 al 10",
+      "description": "Gira la ruleta para sacar un número aleatorio del 1 al 10.",
+      "h1": "Ruleta de Números (1–10)",
+      "items": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
+      "guide": "Rápida y visual para juegos de mesa, niños y sorteos pequeños.",
+      "faqs": [
+        { "q": "¿Es justo cada giro?", "a": "Sí, cada número tiene exactamente un 10%." },
+        { "q": "¿Funciona sin registro?", "a": "Sí, abre y gira al instante." }
+      ]
+    },
+    "prize-wheel": {
+      "title": "Ruleta de Premios Personalizable",
+      "description": "Crea tu ruleta de premios para eventos, tiendas y transmisiones.",
+      "h1": "Ruleta de Premios",
+      "items": ["Premio Mayor", "Café Gratis", "10% Descuento", "Intenta de Nuevo", "Tarjeta Regalo", "Caja Misteriosa"],
+      "guide": "Configura tus premios y usa Probabilidad Ponderada para hacer el premio mayor más exclusivo.",
+      "faqs": [
+        { "q": "¿Puedo ajustar la dificultad del premio mayor?", "a": "Sí, con el modo de Probabilidad Ponderada." },
+        { "q": "¿Sirve en proyectores?", "a": "Sí, usa el botón de Pantalla Completa." }
+      ]
+    },
+    "decision-wheel": {
+      "title": "Ruleta de Decisiones Online",
+      "description": "Deja de dudar y gira la ruleta de decisiones al instante.",
+      "h1": "Ruleta de Decisiones",
+      "items": ["Hazlo ahora", "Espera 10 min", "Pregunta a un amigo", "Toma un descanso", "Empieza poco a poco", "Lanza moneda"],
+      "guide": "Cuando todas las opciones parecen iguales, deja que la ruleta decida por ti.",
+      "faqs": [
+        { "q": "¿Puedo guardar mi lista?", "a": "Sí, copia el enlace compartible." },
+        { "q": "¿Tiene límite?", "a": "No, añade todas las opciones que quieras." }
+      ]
+    },
+    "movie-picker": {
+      "title": "Ruleta de Películas — Qué Ver Hoy",
+      "description": "Elige película o género sin perder tiempo buscando.",
+      "h1": "Ruleta Selector de Películas",
+      "items": ["Acción", "Comedia", "Suspenso", "Ciencia Ficción", "Terror", "Drama", "Animación", "Documental"],
+      "guide": "Pon tus películas pendientes y usa el Modo Eliminación hasta que quede la ganadora de la noche.",
+      "faqs": [
+        { "q": "¿Cómo elegimos entre varias?", "a": "Activa Modo Eliminación hasta dejar la última." },
+        { "q": "¿Se puede compartir?", "a": "Sí, envía el enlace a tus amigos." }
+      ]
+    },
+    "chore-wheel": {
+      "title": "Ruleta de Tareas del Hogar",
+      "description": "Reparte las tareas de limpieza de forma justa y divertida.",
+      "h1": "Ruleta de Tareas",
+      "items": ["Lavar platos", "Barrer", "Sacar basura", "Limpiar cocina", "Ropa", "Ordenar cuarto"],
+      "guide": "Convierte la limpieza en un juego justo para compañeros de piso o niños.",
+      "faqs": [
+        { "q": "¿Se ve quién hizo qué?", "a": "Sí, revisa el Historial de giros." },
+        { "q": "¿Puedo editar tareas?", "a": "Sí, añade o borra cuando quieras." }
+      ]
+    },
+    "random-letter-picker": {
+      "title": "Ruleta de Letras Aleatorias (A–Z)",
+      "description": "Gira el abecedario para jugar Basta, Tutti Frutti o en clase.",
+      "h1": "Ruleta del Abecedario (A–Z)",
+      "items": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"],
+      "guide": "Perfecta para Tutti Frutti, juegos de palabras y clases de lectura. Activa el Modo Eliminación para no repetir letras.",
+      "faqs": [
+        { "q": "¿Están todas las letras?", "a": "Sí, de la A a la Z listas para girar." },
+        { "q": "¿Puedo quitar letras difíciles?", "a": "Sí, bórralas de la lista en un segundo." }
+      ]
+    },
+    "workout-picker": {
+      "title": "Ruleta de Ejercicios — Entrenamiento Aleatorio",
+      "description": "Haz tu rutina en casa más divertida girando la ruleta fitness.",
+      "h1": "Ruleta de Ejercicios",
+      "items": ["20 Flexiones", "30s Plancha", "25 Sentadillas", "15 Burpees", "40 Saltos", "20 Zancadas"],
+      "guide": "Gira la ruleta para decidir tu siguiente serie y usa el Modo Eliminación para completar todo el circuito.",
+      "faqs": [
+        { "q": "¿Puedo cambiar las repeticiones?", "a": "Sí, edita cada ejercicio a tu nivel." },
+        { "q": "¿Funciona en el teléfono?", "a": "Sí, optimizada para pantallas táctiles." }
+      ]
+    }
+  }
+}
