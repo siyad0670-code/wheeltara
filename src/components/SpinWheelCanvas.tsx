@@ -54,17 +54,18 @@ export function SpinWheelCanvas({
     if (!soundEnabled) return;
     const ctx = getAudioContext();
     if (!ctx) return;
+    const now = ctx.currentTime;
     const osc = ctx.createOscillator();
     const gain = ctx.createGain();
     osc.type = 'triangle';
-    osc.frequency.setValueAtTime(620, ctx.currentTime);
-    osc.frequency.exponentialRampToValueAtTime(180, ctx.currentTime + 0.035);
-    gain.gain.setValueAtTime(0.12, ctx.currentTime);
-    gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.035);
+    osc.frequency.setValueAtTime(1050, now);
+    osc.frequency.exponentialRampToValueAtTime(320, now + 0.045);
+    gain.gain.setValueAtTime(0.45, now);
+    gain.gain.exponentialRampToValueAtTime(0.001, now + 0.045);
     osc.connect(gain);
     gain.connect(ctx.destination);
-    osc.start();
-    osc.stop(ctx.currentTime + 0.04);
+    osc.start(now);
+    osc.stop(now + 0.05);
   }, [soundEnabled, getAudioContext]);
 
   const playWinChime = useCallback(() => {
@@ -74,18 +75,17 @@ export function SpinWheelCanvas({
     [523.25, 659.25, 783.99, 1046.5].forEach((freq, idx) => {
       const osc = ctx.createOscillator();
       const gain = ctx.createGain();
-      const start = ctx.currentTime + idx * 0.08;
-      osc.type = 'sine';
+      const start = ctx.currentTime + idx * 0.085;
+      osc.type = 'triangle';
       osc.frequency.setValueAtTime(freq, start);
-      gain.gain.setValueAtTime(0.14, start);
-      gain.gain.exponentialRampToValueAtTime(0.001, start + 0.35);
+      gain.gain.setValueAtTime(0.42, start);
+      gain.gain.exponentialRampToValueAtTime(0.001, start + 0.4);
       osc.connect(gain);
       gain.connect(ctx.destination);
       osc.start(start);
-      osc.stop(start + 0.36);
+      osc.stop(start + 0.42);
     });
   }, [soundEnabled, getAudioContext]);
-
   const getSlices = useCallback(() => {
     const valid =
       items.length > 0 ? items : [{ id: 'empty', label: 'Add items', weight: 1 }];
@@ -200,6 +200,7 @@ export function SpinWheelCanvas({
 
   const handleSpin = useCallback(() => {
     if (isSpinning || items.length === 0) return;
+    if(soundEnabled) getAudioContext(); // Ensure audio context is initialized on spin
     setIsSpinning(true);
 
     const startRotation = rotationRef.current;
