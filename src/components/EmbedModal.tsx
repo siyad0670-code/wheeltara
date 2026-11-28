@@ -38,7 +38,7 @@ export function EmbedModal({
   );
   const shareUrl = `${origin}/${locale}/?data=${payload}`;
   const embedUrl = `${origin}/${locale}/embed/?data=${payload}`;
-  const iframeCode = `<iframe src="${embedUrl}" width="100%" height="580" style="border:0;border-radius:12px;" loading="lazy" allowfullscreen title="Spin Wheel"></iframe>`;
+  const iframeCode = `<iframe src="${embedUrl}" width="100%" height="580" style="border:0;border-radius:12px;" loading="lazy" allowfullscreen title="WheelTara Spin Wheel"></iframe>\n<p style="font-size:12px;text-align:center;margin-top:6px;">Powered by <a href="https://wheeltara.com/${locale}/" target="_blank" rel="noopener">WheelTara Spin Wheel</a></p>`;
 
   const handleCopy = async (text: string, field: 'share' | 'embed') => {
     await navigator.clipboard.writeText(text);
@@ -76,7 +76,7 @@ export function EmbedModal({
               <button
                 type="button"
                 onClick={() => handleCopy(shareUrl, 'share')}
-                className="flex shrink-0 items-center gap-1 rounded-lg bg-indigo-600 px-3 py-2 text-xs font-semibold text-white hover:bg-indigo-700"
+                className="flex shrink-0 items-center gap-1 rounded-lg bg-orange-600 px-3 py-2 text-xs font-semibold text-white hover:bg-orange-700"
               >
                 {copiedField === 'share' ? <Check className="h-4 w-4" /> : <Copy className="h-4 w-4" />}
                 {copiedField === 'share' ? labels.copied : labels.copy}
@@ -90,7 +90,7 @@ export function EmbedModal({
             </label>
             <textarea
               readOnly
-              rows={3}
+              rows={4}
               value={iframeCode}
               className="w-full rounded-lg border border-slate-300 bg-slate-50 p-2.5 font-mono text-xs text-slate-700"
             />

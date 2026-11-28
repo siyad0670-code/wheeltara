@@ -42,14 +42,32 @@ export default async function HomePage({ params }: Props) {
     Wheels: Record<string, { h1: string; description: string }>;
   };
 
+  const faqJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: messages.Home.faqs.map((faq) => ({
+      '@type': 'Question',
+      name: faq.q,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: faq.a,
+      },
+    })),
+  };
+
   return (
     <main className="mx-auto max-w-6xl px-3 pb-8 pt-3 sm:px-4 sm:py-6">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
+
       <div className="mb-3 text-center sm:mb-6">
         <h1 className="text-xl font-black tracking-tight text-slate-900 sm:text-4xl">
           {tHome('h1')}
         </h1>
         <p className="mx-auto mt-1 text-xs font-medium text-slate-500 sm:text-sm">
-          Fun · Fast · 100% Free &amp; Private in your browser
+          Fun · Fast · 100% Free & Private in your browser
         </p>
       </div>
 

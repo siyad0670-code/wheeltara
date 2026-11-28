@@ -6,6 +6,7 @@ import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server
 import { routing } from '@/i18n/routing';
 import { Link } from '@/i18n/navigation';
 import { LanguageSwitcher } from '@/components/LanguageSwitcher';
+import { HeaderNav } from '@/components/HeaderNav';
 
 type Props = {
   children: React.ReactNode;
@@ -24,12 +25,44 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     metadataBase: new URL('https://wheeltara.com'),
     title: t('title'),
-    description: t('description'),  
+    description: t('description'),
     alternates: {
       canonical: `/${locale}/`,
       languages: {
         ...Object.fromEntries(routing.locales.map((l) => [l, `/${l}/`])),
         'x-default': `/en/`,
+      },
+    },
+    openGraph: {
+      type: 'website',
+      siteName: 'WheelTara',
+      title: t('title'),
+      description: t('description'),
+      url: `https://wheeltara.com/${locale}/`,
+      locale,
+      images: [
+        {
+          url: '/og-image.jpg',
+          width: 1376,
+          height: 768,
+          alt: 'WheelTara — Free Spin Wheel & Random Name Picker',
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: t('title'),
+      description: t('description'),
+      images: ['/og-image.jpg'],
+    },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        'max-image-preview': 'large',
+        'max-snippet': -1,
       },
     },
   };
@@ -42,10 +75,32 @@ export default async function LocaleLayout({ children, params }: Props) {
   setRequestLocale(locale);
   const messages = await getMessages();
   const t = await getTranslations({ locale, namespace: 'UI' });
+  const m = await getTranslations({ locale, namespace: 'Metadata' });
+
+  const webAppJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'WebApplication',
+    name: 'WheelTara',
+    url: `https://wheeltara.com/${locale}/`,
+    description: m('description'),
+    applicationCategory: 'UtilitiesApplication',
+    operatingSystem: 'Any',
+    browserRequirements: 'Requires JavaScript',
+    inLanguage: locale,
+    offers: {
+      '@type': 'Offer',
+      price: '0',
+      priceCurrency: 'USD',
+    },
+  };
 
   return (
     <html lang={locale}>
       <body className="min-h-screen bg-slate-50 text-slate-900 antialiased">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(webAppJsonLd) }}
+        />
         <NextIntlClientProvider messages={messages}>
           <header className="sticky top-0 z-30 border-b border-slate-200/80 bg-white/95 backdrop-blur-sm">
             <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
@@ -56,17 +111,7 @@ export default async function LocaleLayout({ children, params }: Props) {
                 </span>
               </Link>
 
-              <nav className="hidden items-center gap-6 text-sm font-semibold text-slate-600 md:flex">
-                <Link href="/" className="border-b-2 border-orange-600 pb-0.5 text-orange-600">
-                  Home
-                </Link>
-                <a href="#tools" className="transition hover:text-slate-900">
-                  {t('allWheels')}
-                </a>
-                <a href="#faq" className="transition hover:text-slate-900">
-                  FAQ
-                </a>
-              </nav>
+              <HeaderNav locale={locale} allWheelsLabel={t('allWheels')} />
 
               <LanguageSwitcher currentLocale={locale} />
             </div>
@@ -76,7 +121,7 @@ export default async function LocaleLayout({ children, params }: Props) {
 
           <footer className="mt-16 border-t border-slate-200 bg-white py-8 text-center text-xs text-slate-500">
             <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-3 px-4 sm:flex-row">
-              <p>© {new Date().getFullYear()} SpinWheel — Free Client-Side Random Picker</p>
+              <p>© {new Date().getFullYear()} WheelTara — Free Client-Side Random Picker</p>
               <div className="flex flex-wrap justify-center gap-4 font-medium text-slate-600">
                 <Link href="/about" className="hover:text-orange-600">About</Link>
                 <Link href="/privacy" className="hover:text-orange-600">Privacy</Link>
